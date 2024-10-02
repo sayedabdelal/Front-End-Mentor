@@ -32,6 +32,7 @@ function ConfirmSummary({TotalPrice}) {
                  <img
                  src= {`${item.img}`}
                  className="thumbnail"
+                 alt={item.name}
                />
                <div className="nameAndPrice">
                  <p className="nameOrderedProduct">{item.name}</p>
