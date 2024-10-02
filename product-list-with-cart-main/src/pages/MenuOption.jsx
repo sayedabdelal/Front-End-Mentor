@@ -57,7 +57,7 @@ function MenuOption({ data }) {
       {allData.map((item, index) => (
         <div className="menuOption" key={index}>
           <img
-            src={`/src/${item.image.desktop}`}
+            src={`/src${item.image.desktop}`}
             className={item.changed ? "menuExample selected" : "menuExample"}
             alt="menu example"
           />
